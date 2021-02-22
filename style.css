@@ -13,11 +13,13 @@ header img{
   margin-top: 20px;
 }
 
+/* centro main e footer */
 main, footer{
   width: 80%;
   margin: auto;
 }
 
+/* cambio dimesine al titolo e tolgo lo spazio tra h1 e p */
 h1{
   font-size: 40px;
   margin-bottom: 0;
@@ -27,6 +29,7 @@ p{
   margin-top: 0;
 }
 
+/* cambio colore e size alle scritte sotto al titolo */
 .sottotitolo{
   color:lightslategrey;
 }
@@ -39,6 +42,7 @@ p{
   font-size: 12px;
 }
 
+/* modifica alle foto sotto ad h1 */
 .foto-tim{
   height: 300px;
 }
@@ -47,14 +51,17 @@ p{
   font-size: 10px;
 }
 
+/* per evidenziare testo p */
 .evidenzia{
   background-color: yellow;
 }
 
+/* cambio spazio delle ul */
 ul{
   padding-inline-start: 15px;
 }
 
+/* varie funzioni per cambiare lo stile alle tabelle */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -74,10 +81,12 @@ th:nth-child(-n + 2){
   width: 25%;
 }
 
+/* aggiungo spazio per avere una divisione tra tabella e nuovo paragrafo */
 div p{
   margin-top: 20px;
 }
 
+/* cambio diverse specifiche per modificare il contenuto nel footer */
 footer h4{
   color: gray;
 }
