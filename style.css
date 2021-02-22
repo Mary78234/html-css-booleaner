@@ -1,3 +1,4 @@
+/*messo immagine di sfondo*/
 header {
   background-color: cornflowerblue;
   background-image: url(img/pattern.png);
@@ -5,6 +6,7 @@ header {
   height: fit-content;
 }
 
+/*definito dimensioni logo e distanziato */
 header img{
   height: 60px;
   margin-left: 100px;
@@ -51,4 +53,48 @@ p{
 
 ul{
   padding-inline-start: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr th{
+  background-color: lightseagreen;
+  color: white;
+  text-align: left;
+}
+
+table tr:nth-child(odd){
+  background-color: lightskyblue;
+}
+
+th:nth-child(-n + 2){
+  width: 25%;
+}
+
+div p{
+  margin-top: 20px;
+}
+
+footer h4{
+  color: gray;
+}
+
+footer div{
+  color: white;
+  font-size: 26px;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  height: 200px;
+}
+
+.computer {
+  background-image: url(img/monitor.jpg);
+}
+
+.map{
+  background-image: url(img/graph.jpg);
 }
