@@ -1,0 +1,54 @@
+header {
+  background-color: cornflowerblue;
+  background-image: url(img/pattern.png);
+  background-size: 320px;
+  height: fit-content;
+}
+
+header img{
+  height: 60px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+main, footer{
+  width: 80%;
+  margin: auto;
+}
+
+h1{
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+p{
+  margin-top: 0;
+}
+
+.sottotitolo{
+  color:lightslategrey;
+}
+
+.autore{
+  color: deepskyblue;
+}
+
+.data{
+  font-size: 12px;
+}
+
+.foto-tim{
+  height: 300px;
+}
+
+.fonte-foto{
+  font-size: 10px;
+}
+
+.evidenzia{
+  background-color: yellow;
+}
+
+ul{
+  padding-inline-start: 15px;
+}
